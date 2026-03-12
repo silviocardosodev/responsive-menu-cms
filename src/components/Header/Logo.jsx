@@ -1,3 +1,5 @@
+import logo from "../../assets/kitchendev-logo.svg"
+
 function Logo(){
 
   return (
@@ -5,7 +7,7 @@ function Logo(){
     <div className="logo">
 
       <a href="/">
-        KitchenDev
+        <img src={logo} alt="KitchenDev logo" />
       </a>
 
     </div>

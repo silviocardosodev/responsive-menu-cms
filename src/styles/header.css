@@ -1,10 +1,20 @@
+@import url("./variables.css");
+
 :root {
   --primary-color: #2e7d32;
 }
 
+.desktop-only {
+  display: flex;
+}
+
+.mobile-visible {
+  display: flex;
+}
+
 .header {
   border-bottom: 1px solid #eee;
-  padding: 12px 0;
+  padding: var(--space-3) 0;
 }
 
 .header-container {
@@ -15,7 +25,7 @@
   align-items: center;
   justify-content: space-between;
 
-  gap: 20px;
+  gap: var(--space-5);
 }
 
 .logo a {
@@ -33,12 +43,13 @@
 
 .search-bar input {
   flex: 1;
-  padding: 10px;
+  padding: var(--space-4);
   border: 1px solid #ccc;
+  font-size: 14px;
 }
 
 .search-bar button {
-  padding: 10px 15px;
+  padding: var(--space-3) var(--space-3);
   border: none;
 
   background: var(--primary-color);
@@ -49,7 +60,8 @@
 
 .header-links {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: var(--space-4);
 }
 
 .header-links a {
@@ -62,7 +74,61 @@
   color: var(--primary-color);
 }
 
+.header-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.link-icon {
+  font-size: 18px;
+}
+
+.link-text {
+  font-size: 14px;
+}
+
 .logo img {
-  height: 120px;
+  height: 40px;
   width: auto;
+}
+
+.hamburger {
+  font-size: 24px;
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .search-bar {
+    display: none;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-visible {
+    display: flex;
+  }
+
+  .link-text {
+    display: none;
+  }
+
+  .header-links {
+    gap: var(--space-3);
+  }
+
+  .link-icon {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
 }

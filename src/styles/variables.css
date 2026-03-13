@@ -1,12 +1,30 @@
 :root {
-  --primary-color: #2e7d32;
-  --text-color: #333;
-  --border-color: #eee;
-  --font-primary:
-    "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial,
-    sans-serif;
-}
+  /* Colors */
 
-body {
-    font-family: var(--font-primary);
+  --primary-color: #2e7d32;
+  --text-color: #111;
+  --border-color: #eee;
+
+  /* Typography */
+
+  --font-primary:
+    "Open Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial,
+    sans-serif;
+
+  /* Breakpoints */
+
+  --mobile: 480px;
+  --tablet: 768px;
+  --desktop: 1024px;
+
+  /* Spacing system (base 16px) */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
 }

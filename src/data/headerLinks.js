@@ -1,6 +1,26 @@
 export const headerLinks = [
-  { label: "Atendimento", url: "#" },
-  { label: "Acompanhar Pedido", url: "#" },
-  { label: "Minha Conta", url: "#" },
-  { label: "🛒", url: "#" }
+  {
+    label: "Atendimento",
+    icon: "💬",
+    url: "#",
+    showOnMobile: false
+  },
+  {
+    label: "Acompanhar Pedido",
+    icon: "📦",
+    url: "#",
+    showOnMobile: false
+  },
+  {
+    label: "Minha Conta",
+    icon: "👤",
+    url: "#",
+    showOnMobile: true
+  },
+  {
+    label: "Carrinho",
+    icon: "🛒",
+    url: "#",
+    showOnMobile: true
+  }
 ]

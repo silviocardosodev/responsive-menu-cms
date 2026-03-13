@@ -1,6 +1,7 @@
 import Logo from "./Logo"
 import SearchBar from "./SearchBar"
 import HeaderLinks from "./HeaderLinks"
+import Hamburger from "./Hamburger"
 
 function Header(){
 
@@ -10,13 +11,15 @@ function Header(){
 
       <div className="header-container">
 
+        <Hamburger />
+
         <Logo />
 
-        <SearchBar />
+        <SearchBar />        
 
         <HeaderLinks />
 
-      </div>
+      </div>      
 
     </header>
 

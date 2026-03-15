@@ -1,8 +1,8 @@
-function Hamburger(){
+function Hamburger({ toggleMenu }){
 
   return (
 
-    <button className="hamburger">
+    <button className="hamburger" onClick={toggleMenu}>
       ☰
     </button>
 

@@ -1,3 +1,5 @@
+import searchIcon from "../../assets/icons/magnifying-glass-solid-full.svg"
+
 function SearchBar(){
 
   return (
@@ -10,7 +12,7 @@ function SearchBar(){
       />
 
       <button>
-        🔍
+        <img src={searchIcon} alt="Buscar" />
       </button>
 
     </div>

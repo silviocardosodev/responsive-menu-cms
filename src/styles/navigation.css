@@ -1,6 +1,7 @@
 .main-navigation {
   border-bottom: 1px solid var(--border-color);
   position: relative;
+  background-color: var(--color-gray-50);
 }
 
 .nav-list {
@@ -17,7 +18,7 @@
 }
 
 .nav-item a {
-  font-size: 14px;
+  font-size: var(--font-size-sm);
   font-weight: 600;
 
   text-transform: uppercase;
@@ -33,7 +34,7 @@
   background: none;
   border: none;
 
-  font-size: 14px;
+  font-size: var(--font-size-sm);
   font-weight: 600;
   text-transform: uppercase;
 
@@ -112,7 +113,7 @@
 }
 
 .dropdown-item span {
-  font-size: 14px;
+  font-size: var(--font-size-sm);
   font-weight: 600;
 }
 

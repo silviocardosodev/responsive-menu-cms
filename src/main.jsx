@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import "./styles/reset.css"
 import "./styles/global.css"
+import "./styles/tokens.css"
 import "./styles/variables.css"
 import "./styles/header.css"
 import "./styles/navigation.css"

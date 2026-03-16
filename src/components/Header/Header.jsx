@@ -20,11 +20,8 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <Hamburger toggleMenu={toggleMenu} />
-
         <Logo />
-
         <SearchBar />
-
         <HeaderLinks />        
       </div>
 

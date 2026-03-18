@@ -1,4 +1,6 @@
 .main-navigation {
+  position: relative;
+  z-index: 99;
   border-bottom: 1px solid var(--border-color);
   position: relative;
   background-color: var(--color-gray-50);
@@ -57,6 +59,7 @@
   align-items: center;
   height: 200px;
   gap: 40px;
+  border-top: 1px solid var(--border-color);
 }
 
 .dropdown-menu {
@@ -76,6 +79,12 @@
   transition: all 0.25s ease;
 
   z-index: 10;
+}
+
+.mobile-menu-header {
+  position: absolute;
+  right: 0;
+  padding: 16px;
 }
 
 .dropdown-menu.open {

@@ -5,7 +5,7 @@ function MobileMenu({ isOpen, closeMenu }) {
     <>
       <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
         <div className="mobile-menu-header">
-          <button onClick={closeMenu}>✕</button>
+          <button className="mobile-menu-close-icon" onClick={closeMenu}>✕</button>
         </div>
 
         <ul className="mobile-menu-list">

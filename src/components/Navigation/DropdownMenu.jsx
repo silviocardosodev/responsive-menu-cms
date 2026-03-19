@@ -7,7 +7,6 @@ function DropdownMenu({ isOpen }) {
         {dropdownMenuData.map((item, index) => (
           <a key={index} href={item.url} className="dropdown-item">
             <img src={item.image} alt={item.label} />
-
             <span>{item.label}</span>
           </a>
         ))}

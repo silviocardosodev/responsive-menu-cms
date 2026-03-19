@@ -1,0 +1,22 @@
+.hero{
+
+  width:100%;
+  position:relative;
+max-height:500px;
+}
+
+.hero-banner{
+
+  display:block;
+  width:100%;
+
+  overflow:hidden;
+
+}
+
+.hero-banner img{
+
+  height:100%;
+  object-fit:cover;
+
+}
